@@ -5,6 +5,12 @@
     --black: rgba(17, 14, 14, 0.801);
     --blue: #03032c;
 }
+/* loader */
+.main {
+    opacity: 0;
+    display: none;
+    transition: opacity 2s ease-in;
+}
 /* animation */
 @keyframes slide {
     0% {
